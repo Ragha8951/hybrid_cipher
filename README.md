@@ -138,8 +138,11 @@ Once the dependencies are installed, follow these steps to run the **Hybrid Ciph
  **For questions or feedback, feel free to reach out:**
 
    **GitHub: @Ragha8951**
+   <br>
    **Email: ragha8951@gmail.com**
+   <br>
    Thank you for visiting❤️
+   
 ---
 
 
