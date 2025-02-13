@@ -47,7 +47,7 @@ This combination ensures both **confusion (substitution)** and **diffusion (tran
 
 ---
 
-## **⚙️ How It Works**  
+## **How It Works**  
 
 ### 🔹 **Substitution Layer**  
 1. Converts plaintext into **numerical blocks**.  
