@@ -103,28 +103,35 @@ Once the dependencies are installed, follow these steps to run the **Hybrid Ciph
 
 **substitution_key: Modify the randomly generated key matrix for the Hill Cipher (it is automatically generated).**<br>
 
-**transposition_key: Provide a custom secret key for shuffling the blocks during the transposition phase (entered by the user).**
+**transposition_key: Provide a custom secret key for shuffling the blocks during the transposition phase (entered by the user).**<br>
+
 ---
 ## **Example**
 ### INPUT
-**Enter SECRETKEY: gobimn**
-**Enter Plain text: good morningG**
+   Enter SECRETKEY: gobimn
+   Enter Plain text: good morningG
 
 ###OUTPUT
-**Ciphertext Blocks: [[109, 138, 179, 95], [173, 217, 85, 138], [114, 177, 138, 4], [231, 77, 97, 89]]**
+   Ciphertext Blocks: [[109, 138, 179, 95], [173, 217, 85, 138], [114, 177, 138, 4], [231, 77, 97, 89]]**
 
-**Decrypted Text: good morningG**
+   Decrypted Text: good morningG
+
 ---
 
 ##**Security Justification**
-  **Confusion: The Hill Cipher obscures relationships between plaintext and ciphertext by replacing plaintext blocks with seemingly unrelated ciphertext blocks.**
-  **Diffusion: The transposition layer spreads the influence of each plaintext character across multiple ciphertext blocks, disrupting patterns and ensuring that partial information about the ciphertext is 
-    insufficient for decryption.**
-  **128-bit Strength: By operating on large matrices and using modular arithmetic, the cipher achieves computational complexity comparable to modern encryption standards, ensuring brute-force attacks are 
-    computationally prohibitive.**
+
+  *Confusion: The Hill Cipher obscures relationships between plaintext and ciphertext by replacing plaintext blocks with seemingly unrelated ciphertext blocks.*
+  
+  *Diffusion: The transposition layer spreads the influence of each plaintext character across multiple ciphertext blocks, disrupting patterns and ensuring that partial information about the ciphertext is 
+    insufficient for decryption.*
+    
+  *128-bit Strength: By operating on large matrices and using modular arithmetic, the cipher achieves computational complexity comparable to modern encryption standards, ensuring brute-force attacks are 
+    computationally prohibitive.*
 ---
+
 ##**Acknowledgments**
-The design of this hybrid cipher is inspired by classical cryptographic techniques and modern encryption principles. Special thanks to the open-source community for tools like numpy and sympy, which made this implementation possible.
+**The design of this hybrid cipher is inspired by classical cryptographic techniques and modern encryption principles. Special thanks to the open-source community for tools like numpy and sympy, which made this implementation possible.**
+
 ---
 ##***Contact**
  **For questions or feedback, feel free to reach out:**
