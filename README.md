@@ -13,8 +13,7 @@ The hybrid approach ensures resistance against classical cryptanalysis methods s
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Example](#example)  
-- [Security Justification](#security-justification)  
-- [Contributing](#contributing)  
+- [Security Justification](#security-justification)   
 - [Acknowledgments](#acknowledgments)  
 - [Contact](#contact)  
 
@@ -126,6 +125,7 @@ Once the dependencies are installed, follow these steps to run the **Hybrid Ciph
     insufficient for decryption.*
     
 *128-bit Strength: By operating on large matrices and using modular arithmetic, the cipher achieves computational complexity comparable to modern encryption standards, ensuring brute-force attacks are computationally prohibitive.*
+
 ---
 
 ##**Acknowledgments**
@@ -134,10 +134,12 @@ Once the dependencies are installed, follow these steps to run the **Hybrid Ciph
 
 ---
 ##***Contact**
+
  **For questions or feedback, feel free to reach out:**
 
-    **GitHub: @Ragha8951**
-    **Email: ragha8951@gmail.com**
+   **GitHub: @Ragha8951**
+   **Email: ragha8951@gmail.com**
+   Thank you for visiting❤️
 ---
 
 
