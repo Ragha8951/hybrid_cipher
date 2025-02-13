@@ -125,11 +125,11 @@ Once the dependencies are installed, follow these steps to run the **Hybrid Ciph
   *Diffusion: The transposition layer spreads the influence of each plaintext character across multiple ciphertext blocks, disrupting patterns and ensuring that partial information about the ciphertext is 
     insufficient for decryption.*
     
-  *128-bit Strength: By operating on large matrices and using modular arithmetic, the cipher achieves computational complexity comparable to modern encryption standards, ensuring brute-force attacks are 
-    computationally prohibitive.*
+*128-bit Strength: By operating on large matrices and using modular arithmetic, the cipher achieves computational complexity comparable to modern encryption standards, ensuring brute-force attacks are computationally prohibitive.*
 ---
 
 ##**Acknowledgments**
+
 **The design of this hybrid cipher is inspired by classical cryptographic techniques and modern encryption principles. Special thanks to the open-source community for tools like numpy and sympy, which made this implementation possible.**
 
 ---
